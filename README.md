@@ -1,3 +1,5 @@
+[![BuildStatus](https://github.com/jessicaflowers/final-nn/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/jessicaflowers/final-nn/actions/workflows/test.yml)
+
 # Final project: neural network
 
 ## Overview
