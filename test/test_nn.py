@@ -261,7 +261,7 @@ def test_one_hot_encode_seqs():
     test the one-hot encoding against known values
     A->[1,0,0,0], T->[0,1,0,0], C->[0,0,1,0], G->[0,0,0,1]
     """
-    # T=test simple 3 nucleotide sequence: AGA
+    # test simple 3 nucleotide sequence: AGA
     # Expected: [1,0,0,0] + [0,0,0,1] + [1,0,0,0] = [1,0,0,0,0,0,0,1,1,0,0,0]
     seqs = ['AGA']
     encoded = one_hot_encode_seqs(seqs)
